@@ -1,0 +1,47 @@
+name: farmers_record
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+
+
+  file_picker: ^9.1.0
+  flutter:
+    sdk: flutter
+
+  intl: ^0.20.2
+  liquid_pull_to_refresh: ^3.0.1
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  reorderables: ^0.6.0
+  sqflite_common_ffi: ^2.3.4+4
+  sqlite3: ^2.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/icons/
+    - assets/fonts/times new roman.ttf
+    - assets/fonts/times new roman bold.ttf
+
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+        - asset: assets/fonts/Gilroy-Light.otf
+          weight: 700
