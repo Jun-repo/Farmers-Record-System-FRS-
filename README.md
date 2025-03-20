@@ -1,86 +1,96 @@
 # Farmers-Record-System-FRS-
-Farmers Record System - Installation and Setup Guide
+================================================================================
+          Farmers Record System - Installation and Setup Guide
+================================================================================
 
-This guide provides step-by-step instructions to install and set up the Farmers Record System application on your Windows computer. Follow the steps carefully to ensure proper installation and usage.
+Welcome to the Farmers Record System! This guide provides step-by-step instructions 
+to install and set up the application on your Windows computer using the installer 
+from the GitHub repository. Follow these steps carefully for a smooth experience.
 
----
-
+--------------------------------------------------------------------------------
 ### Step-by-Step Installation Guide
+--------------------------------------------------------------------------------
 
 #### Step 1: Verify System Requirements
-Before installing the Farmers Record System, ensure your system meets the following requirements:
-- Operating System: Windows 10 or later (64-bit recommended)
-- Processor: Intel Core i3 or equivalent (or higher)
-- RAM: Minimum 4 GB (8 GB recommended)
-- Storage: At least 500 MB of free disk space
-- Screen Resolution: 1366x768 or higher
-- Internet Connection: Optional (only required for updates or contacting support)
+Ensure your system meets these minimum requirements:
+  * Operating System: Windows 10 or later (64-bit recommended)
+  * Processor: Intel Core i3 or equivalent (or higher)
+  * RAM: 4 GB minimum (8 GB recommended)
+  * Storage: At least 500 MB free disk space
+  * Screen Resolution: 1366x768 or higher
+  * Internet Connection: Required to download from GitHub
 
-#### Step 2: Download the Executable File
-1. Obtain the "Farmers Record System.exe" file from the official source provided by the developer.
-   - Recommended: Download from the GitHub releases page (see Developer Contact Information below for the repository link).
-2. Save the file to a location on your computer (e.g., Desktop or Downloads folder).
+#### Step 2: Download from GitHub
+  1. Visit the GitHub repository: https://github.com/Jun-repo/Farmers-Record-System-FRS-
+  2. Navigate to the "farmers_record" folder.
+  3. Open the "installer" subfolder.
+  4. Download "frs_setup.exe" by clicking it and selecting "Download" or cloning the repo:
+     - To clone: Run `git clone https://github.com/Jun-repo/Farmers-Record-System-FRS-.git`
+     - Then locate `Farmers-Record-System-FRS-/farmers_record/installer/frs_setup.exe`
+  5. Save the file to your computer (e.g., Desktop or Downloads).
 
 #### Step 3: Run the Installer
-1. Locate the downloaded "Farmers Record System.exe" file.
-2. Double-click the file to start the installation process.
-   - If prompted by Windows Defender or User Account Control (UAC), click "Yes" to allow the app to make changes to your device.
-   - Note: If Windows flags the file as "unrecognized," click "More info" and then "Run anyway" to proceed (this is common for new software not yet widely recognized).
+  1. Locate the downloaded "frs_setup.exe" file.
+  2. Double-click to start the installation process.
+     - Note: If prompted by Windows Defender/UAC, click "Yes."
+     - Note: If flagged as "unrecognized," click "More info" > "Run anyway."
 
 #### Step 4: Follow Installation Prompts
-1. The installer will launch a setup wizard.
-2. Accept the default installation directory (e.g., C:\Program Files\Farmers Record System) or choose a custom location.
-3. Click "Install" to begin the installation.
-4. Wait for the process to complete, then click "Finish" to close the wizard.
-   - Optional: Check the box to "Launch Farmers Record System" immediately after installation.
+  1. The setup wizard will open.
+  2. Choose the default directory (C:\Program Files\Farmers Record System) or a custom one.
+  3. Click "Install" and wait for completion.
+  4. Click "Finish" to exit the wizard.
+     - Optional: Check "Launch Farmers Record System" to start immediately.
 
 #### Step 5: Launch the Application
-1. Find the "Farmers Record System" shortcut on your Desktop or in the Start Menu.
-2. Double-click to open the app.
-3. The login screen will appear.
+  1. Find the "Farmers Record System" shortcut on your Desktop or Start Menu.
+  2. Double-click to open the app.
+  3. The login screen will appear.
 
 #### Step 6: Log In with Default Credentials
-- The application includes a default admin account for initial access:
-  - Username: admin
-  - Password: passw0rd123
-- Enter these credentials in the login fields and click "Login."
-- Recommendation: Change the default password after your first login for security purposes (if the app supports this feature).
+  * Default Account:
+    - Username: admin
+    - Password: passw0rd123 (note the zero in "passw0rd")
+  * Enter these in the login fields and click "Login."
+  * Tip: Change the password after first login for security (if supported).
 
 #### Step 7: Explore the Application
-- Upon successful login, you will be directed to the Dashboard.
-- Use the navigation menu to access features like "Farmers" management and other tools provided by the system.
+  - After login, you’ll see the Dashboard.
+  - Navigate using the menu to manage "Farmers" and other features.
 
----
-
+--------------------------------------------------------------------------------
 ### Recommended Settings
-- Install Location: Use the default directory (C:\Program Files\Farmers Record System) to avoid permission issues.
-- Antivirus: Add an exception for "Farmers Record System.exe" in your antivirus software to prevent false positives.
-- Updates: Check the GitHub repository periodically for updates or newer releases.
-- Backup: Regularly back up your database (if applicable) to prevent data loss.
+--------------------------------------------------------------------------------
+  * Install Location: Use default (C:\Program Files\Farmers Record System) to avoid issues.
+  * Antivirus: Add an exception for "frs_setup.exe" and the installed app.
+  * Updates: Check the GitHub repository for new releases periodically.
+  * Backup: Save your database regularly to avoid data loss.
 
----
-
+--------------------------------------------------------------------------------
 ### Troubleshooting
-- Issue: "Application won't open."
-  - Solution: Ensure your system meets the requirements and that the .exe file isn’t blocked by antivirus software.
-- Issue: "Invalid Credentials" error.
-  - Solution: Verify you’re using the default username "admin" and password "passw0rd123" (note the zero in "passw0rd").
-- Issue: Installation fails.
-  - Solution: Run the installer as Administrator (right-click the .exe and select "Run as administrator").
+--------------------------------------------------------------------------------
+  * "Application won’t open"
+    - Check system requirements and antivirus settings.
+  * "Invalid Credentials"
+    - Confirm username "admin" and password "passw0rd123."
+  * "Installation fails"
+    - Run "frs_setup.exe" as Administrator (right-click > "Run as administrator").
 
----
-
+--------------------------------------------------------------------------------
 ### Developer Contact Information
-For support, password recovery, or inquiries, contact the developer:
-- Email: emcallcompany@gmail.com
-- Phone Number: +63 992 006 1931 (Philippine number)
-- GitHub Repository: https://github.com/Jun-repo/Farmers-Record-System-FRS-.git
-  - Access the source code, report issues, or check for updates here.
+--------------------------------------------------------------------------------
+For support, password recovery, or inquiries, reach out to:
+  * Email: emcallcompany@gmail.com
+  * Phone: +63 992 006 1931 (Philippine number)
+  * GitHub: https://github.com/Jun-repo/Farmers-Record-System-FRS-
+    - Access source code, report issues, or get updates here.
 
----
-
+--------------------------------------------------------------------------------
 ### Additional Notes
-- Default Account: The default credentials (admin/passw0rd123) are provided for initial setup. It’s strongly recommended to secure your installation by updating these credentials if the application allows.
-- Open Source: The full source code is available on GitHub for advanced users who wish to modify or contribute to the project.
+--------------------------------------------------------------------------------
+  * Default Account: Use admin/passw0rd123 for initial setup. Update it for security.
+  * Open Source: Full code available in this repository for customization or contributions.
 
-Thank you for using Farmers Record System!
+================================================================================
+Thank you for choosing Farmers Record System!
+================================================================================
