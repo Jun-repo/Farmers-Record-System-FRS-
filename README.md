@@ -1,7 +1,5 @@
 # Farmers-Record-System-FRS-
-================================================================================
-          Farmers Record System - Installation and Setup Guide
-================================================================================
+===== Farmers Record System - Installation and Setup Guide =====
 
 Welcome to the Farmers Record System! This guide provides step-by-step instructions 
 to install and set up the application on your Windows computer using the installer 
@@ -91,6 +89,4 @@ For support, password recovery, or inquiries, reach out to:
   * Default Account: Use admin/passw0rd123 for initial setup. Update it for security.
   * Open Source: Full code available in this repository for customization or contributions.
 
-================================================================================
-Thank you for choosing Farmers Record System!
-================================================================================
+====== Thank you for choosing Farmers Record System! ======
